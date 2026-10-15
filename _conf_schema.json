@@ -1,0 +1,14 @@
+{
+    "enable_asset_injection": {
+        "description": "在响应层注入 WebUI 文案",
+        "type": "bool",
+        "default": true,
+        "hint": "包装内核的静态文件服务：命中 dashboard 语言包时，把其它插件登记的 i18n 词条写进改写副本再发给浏览器。磁盘上的 dashboard 文件不会被改动（改写副本放在本插件的数据目录）。关闭后所有注入的词条都会退回 [MISSING: ...] 占位。"
+    },
+    "enable_metadata_plain_text": {
+        "description": "保护纯文本配置分组",
+        "type": "bool",
+        "default": true,
+        "hint": "包装内核的 ConfigMetadataI18n.convert_to_i18n_keys：把其它插件登记过的配置分组保持为纯文本，避免面板显示 [MISSING: ai_group.xxx_runner.description] 这类占位。"
+    }
+}

@@ -1,0 +1,7 @@
+name: astrbot_plugin_libi18nject # 插件唯一识别名，必须与插件目录名一致
+display_name: Libi18nject · WebUI 文案注入 # 用于展示的名字（需要版本 >= v4.5.0）
+desc: "在请求层给 AstrBot WebUI 补 i18n 文案：其它插件可登记自己的界面词条与需要保持纯文本的配置分组，从根上消除面板上的 [MISSING: ...] 占位。"
+version: v1.0.0 # 插件版本号。格式：v1.1.1 或者 v1.1
+author: cxykevin # 作者
+repo: https://github.com/cxykevin/astrbot_plugin_libi18nject # 插件的仓库地址
+astrbot_version: ">=4.29.0" # 依赖 v4.29.0 的静态文件服务与配置元数据 i18n 实现
